@@ -10,7 +10,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension
 
 @ExtendWith(SpringExtension::class)
 @DataJpaTest
-class RepositoriesTest(
+class RepositoriesTests(
   @Autowired val entityManager: TestEntityManager,
   @Autowired val userRepository: UserRepository,
   @Autowired val articleRepository: ArticleRepository
